@@ -118,3 +118,9 @@ input#post-button {
     font-weight: bold;
     font-size: 1.1em;
 }
+
+pre {
+    font-family: Consolas, monospace;
+    font-size: 12px;
+    white-space: pre-wrap;
+}

@@ -114,8 +114,6 @@ impl PostSubmission {
             .replace("&", "&amp;")
             .replace("<", "&lt;")
             .replace(">", "&gt;")
-            .replace("\n", "<br>\n")
-            .replace("  ", " &nbsp;")
     }
 }
 

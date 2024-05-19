@@ -5,7 +5,7 @@
             <span class="anon-hash">{{ post.anon_hash }}</span>
             {% endif %}
             <br>
-            <span class="body">{{ post.body }}</span>
+            <pre>{{ post.body }}</pre>
             {% if admin and post.status == "pending" %}
             <br>
             <form action="/admin/update-post-status" method="post" id="approve-form">
